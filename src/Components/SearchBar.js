@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './SearchBar.css';
+import '../Components/styles/searchBar.css';
 import SearchIcon from '@mui/icons-material/Search';
 import CloseIcon from '@mui/icons-material/Close';
 
@@ -44,7 +44,7 @@ export default function SearchBar({ placeholder, data, chosenCrypto, setChosenCr
                     {filteredData.length === 0 ? <SearchIcon /> : <CloseIcon id="clearBtn" onClick={clearInput} />}
                 </div>
             </div>
-            {filteredData.length != 0 && (
+            {filteredData.length !== 0 && (
                 <div className="dataResult">
                     {filteredData.map((value, index) => {
                         return <div key={index} className="dataItem" onClick={(e) => chosen(e)} id={value.name}>

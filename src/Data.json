@@ -64,5 +64,29 @@
         "name": "VeThor",
         "symbol": "VTHO",
         "blockchain": "VeChainThor"
+    },
+    {
+        "id": 111,
+        "name": "Tether",
+        "symbol": "USDT",
+        "blockchain": "Ethereum"
+    },
+    {
+        "id": 112,
+        "name": "BNB",
+        "symbol": "BNB",
+        "blockchain": "Binance"
+    },
+    {
+        "id": 113,
+        "name": "Aave",
+        "symbol": "Aave",
+        "blockchain": "Ethereum"
+    },
+    {
+        "id": 114,
+        "name": "Raydium",
+        "symbol": "RAY",
+        "blockchain": "Solana"
     }
 ]

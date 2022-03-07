@@ -49,7 +49,18 @@ input:focus {
 }
 
 .dataResult::-webkit-scrollbar {
-  display: none;
+  background-color: rgb(109, 156, 226);
+}
+
+.dataResult::-webkit-scrollbar-button {
+  background-color: rgb(68, 43, 114);
+  border-bottom-left-radius: 15px;
+}
+
+.dataResult::-webkit-scrollbar-thumb {
+  background: rgb(28, 47, 134);
+  border-radius: 15px;
+  border: 1px solid rgb(174, 174, 206);
 }
 
 .dataResult .dataItem {
@@ -62,12 +73,10 @@ input:focus {
   font-weight: bolder;
 }
 
-.dataItem  {
+.dataItem {
   padding-left: 5px;
   width: 100%;
-  
 }
-
 
 .dataItem:hover {
   background-color: lightgray;

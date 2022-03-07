@@ -1,5 +1,5 @@
 import React from 'react';
-import './Result.css';
+import '../Components/styles/Result.css';
 
 export default function Result({ chosenCrypto, clicked }) {
     return (

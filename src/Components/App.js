@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import './App.css';
-import SearchBar from './Components/SearchBar';
-import Result from './Components/Result';
-import CryptoData from './Data.json';
+import '../Components/styles/app.css';
+import SearchBar from './SearchBar';
+import Result from './Result';
+import CryptoData from '../Data.json';
 
 function App() {
 
@@ -17,7 +17,7 @@ function App() {
 
   return (
     <div className="App">
-      <SearchBar placeholder="Search for Crypto..." data={CryptoData} chosenCrypto={chosenCrypto}
+      <SearchBar placeholder="Search for Blockchain/ Token..." data={CryptoData} chosenCrypto={chosenCrypto}
         setChosenCrypto={setChosenCrypto} setClicked={setClicked} />
       <Result value="Result" chosenCrypto={chosenCrypto} clicked={clicked} />
     </div>
