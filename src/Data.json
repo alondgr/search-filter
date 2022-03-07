@@ -1,0 +1,68 @@
+[
+    {
+        "id": 100,
+        "name": "Bitcoin",
+        "symbol": "BTC",
+        "blockchain": "Bitcoin"
+    },
+    {
+        "id": 101,
+        "name": "Ethereum",
+        "symbol": "ETH",
+        "blockchain": "Ethereum"
+    },
+    {
+        "id": 102,
+        "name": "OMG Network",
+        "symbol": "OMG",
+        "blockchain": "Ethereum"
+    },
+    {
+        "id": 103,
+        "name": "Solana",
+        "symbol": "SOL",
+        "blockchain": "Solana"
+    },
+    {
+        "id": 104,
+        "name": "Dai",
+        "symbol": "DAI",
+        "blockchain": "Ethereum"
+    },
+    {
+        "id": 105,
+        "name": "Aragon",
+        "symbol": "ANT",
+        "blockchain": "Ethereum"
+    },
+    {
+        "id": 106,
+        "name": "Bitspawn",
+        "symbol": "SPWN",
+        "blockchain": "Solana"
+    },
+    {
+        "id": 107,
+        "name": "Cope",
+        "symbol": "COPE",
+        "blockchain": "Solana"
+    },
+    {
+        "id": 108,
+        "name": "Komodo",
+        "symbol": "KMD",
+        "blockchain": "Komodo"
+    },
+    {
+        "id": 109,
+        "name": "VeChain",
+        "symbol": "VET",
+        "blockchain": "VeChainThor"
+    },
+    {
+        "id": 110,
+        "name": "VeThor",
+        "symbol": "VTHO",
+        "blockchain": "VeChainThor"
+    }
+]

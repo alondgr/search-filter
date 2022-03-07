@@ -1,0 +1,12 @@
+.result {
+    z-index: 0;
+    position: relative;
+    margin-top: 20px;
+    height: 100px;
+    width: 500px;
+    background-color: white;
+    font-size: large;
+    color: rgb(15, 33, 95);
+    font-weight: bold;
+    padding: 10px;
+}
